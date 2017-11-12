@@ -4,16 +4,26 @@
 body {
     background-color: #BAE8E5;
     font-family: 'Poiret One';
+    font-family: 20px;
 }
 
 h1 {
     color: black;
     text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+
+	color: black;
+    text-align: center;
+    font-size: 25px;
 }
 
 p {
-    font-family: Montserrat;
+    font-family: 'Poiret One';
     font-size: 20px;
+    text-align: center;
 
 }
 
@@ -21,10 +31,12 @@ p {
 
 ul {
 	list-style-type: none;
-	margin-left: 400px;
+	margin-left: 450px;
+	margin-bottom: 10px;
 	postion: relative;
 }
 li {
+	display: inline-block;
 	float: left;
 	height: 20px;
 	width:60px
@@ -35,12 +47,15 @@ li {
 }
 a {
 	display: block;
-	width: 100px;
+	width: 340px;
 	text-decoration: none;
-	font-size: 32px;
+	font-size: 20px;
+	text-align: center;
+
 }
 a:hover{
 	color:#519332;
+
 }
 
 button {
@@ -48,16 +63,16 @@ button {
 	color: white;
 	font-size: 20px;
 	font-family: 'Poiret One';
-	height: 60px;
-	width: 100px;
+	height: 80px;
+	width: 140px;
 	float: center;
 	border-radius: 10px;
 }
 #navbar{
-	position:fixed;<!--this makes the navigation bar accessible to the user so they don't have to scroll back to the top of the page if they want to click a link to a different page-->
+	position:absolute;
 	float:top;
 	border-radius: 15px;
-	width: 100%;
+	width: 340px;
 	height: 70px;
 	background-color:#ABDC93;
 
