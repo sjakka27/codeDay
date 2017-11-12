@@ -1,22 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+
 body {
     background-color: #BAE8E5;
+    font-family: 'Poiret One';
 }
 
 h1 {
-    color: white;
+    color: black;
     text-align: center;
 }
 
 p {
     font-family: Montserrat;
     font-size: 20px;
+
 }
 
 
 
 ul {
 	list-style-type: none;
-	margin: auto;
+	margin-left: 400px;
 	postion: relative;
 }
 li {
@@ -37,17 +42,28 @@ a {
 a:hover{
 	color:#519332;
 }
+
+button {
+	background-color: #F43530;
+	color: white;
+	font-size: 20px;
+	font-family: 'Poiret One';
+	height: 60px;
+	width: 100px;
+	float: center;
+	border-radius: 10px;
+}
 #navbar{
 	position:fixed;<!--this makes the navigation bar accessible to the user so they don't have to scroll back to the top of the page if they want to click a link to a different page-->
 	float:top;
-	border: 1px solid #7C2A6A;
 	border-radius: 15px;
 	width: 100%;
-	height: 80px;
+	height: 70px;
 	background-color:#ABDC93;
+
 }
-.class{
-	border: 1px  solid black;
+.detech{
+	float: center;
 	padding: 15px;
 	height: 80px;
 	display: inline;
